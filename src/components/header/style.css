@@ -1,0 +1,7 @@
+.top-header-scrolled {
+  transition: background-color 200ms linear;
+}
+
+.navbar-container {
+  justify-content: flex-end;
+}

@@ -1,0 +1,116 @@
+.comments,
+.form {
+  padding: 0em 3em;
+}
+
+.leave-comment {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact-form .form {
+  padding: 0;
+}
+
+.comments {
+  margin: 0 0 1em;
+  text-align: left;
+}
+
+ul.nested-comments ul li {
+  margin: 1em 3em;
+}
+
+.comment p {
+  margin-left: 76px;
+}
+
+.comment {
+  margin-bottom: 1em;
+  padding: 1em 0;
+}
+
+.comment-avatar {
+  float: left;
+  width: 60px;
+  height: auto;
+  margin-right: 1em;
+}
+
+.comment-meta span {
+  font-size: .8em;
+  color: #999;
+}
+
+.comment-meta .mid-sep {
+  padding: 0 2px;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  /*border-radius*/
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+
+/* Inputs */
+
+input:not([type=submit]):not([type=file]),
+textarea {
+  width: 100% !important;
+  height: 50px;
+  margin-bottom: 25px;
+  padding: 0 15px 2px;
+  border: 2px solid #ebebeb;
+  /*border-radius*/
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: white;
+  box-shadow: 0px 0px 0px 2px transparent;
+  -webkit-transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+}
+
+input:not([type=submit]):not([type=file]):focus,
+textarea:focus {
+  border-color: #1abc9c;
+  outline: none;
+}
+
+textarea {
+  max-width: 100%;
+  min-height: 150px;
+  padding: 15px;
+}
+
+.submit {
+  font-size: 1.1em;
+  position: relative;
+  width: 190px;
+  height: 45px;
+  margin-bottom: 2em;
+  padding: 0;
+  cursor: pointer;
+  vertical-align: top;
+  border: 0;
+  float: right;
+}
+
+.submit:active {
+  outline: none;
+}
+
+.leave-comment {
+  margin-top: 3em;
+}
+
+input:not([type=submit]):not([type=file]):focus,
+textarea:focus {
+  -webkit-animation: rubberBand 0.5s 1;
+  -moz-animation: rubberBand 0.5s 1;
+  -o-animation: rubberBand 0.5s 1;
+  animation: rubberBand 0.5s 1;
+}
