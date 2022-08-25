@@ -32,7 +32,7 @@ const Header = () => {
     return (
         <Navbar fixed="top" expanded={navbarDropdownOpen} bg={navbarScrolled || navbarDropdownOpen ? 'dark' : ''} className='top-header-scrolled' expand="lg" variant="dark">
             <Container>
-                <Navbar.Brand className="" href="#home">Qualicode</Navbar.Brand>
+                <Navbar.Brand className="" href="#home">DEVINT Software</Navbar.Brand>
                 <Navbar.Toggle onClick={onDropdownOpen} />
                 <Navbar.Collapse id="basic-navbar-nav" className="navbar-container" >
                     <Nav onSelect={() => setNavbarDropdownOpen(false)}>
